@@ -1,14 +1,49 @@
+/*
+red - ff002f
+orange - fbaf5d
+*/
+
 body {
-    background-image:url('/assets/images/background.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #e7e7e7;
+    color: #444;
+}
+
+strong {
+    color: #111;
 }
 
 #logo {
     background-image:url('/assets/images/logo.png');
     width: 356px;
     height: 226px;
-    margin: 300px auto 0;
+    margin: 0 auto;
+}
+
+
+table.diagram {
+    width: 100%;
+}
+
+table.diagram tr {
+    border-bottom: 4px solid #e7e7e7;
+}
+
+table.diagram td {
+    padding: 20px;
+    vertical-align: text-top;
+}
+
+table.diagram .diagram-label {
+    width: 35%;
+    background-color: #fff;
+}
+
+table.diagram .diagram-content {
+    width: 65%;
+    background-color: #444;
+    color: #e7e7e7;
+}
+
+table.diagram .diagram-content strong {
+    color: #fff;
 }

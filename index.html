@@ -3,11 +3,94 @@
     <head>
         <title>RAP: REST APIs / Apache / PHP</title>
         <link href="/assets/images/favicon.png" rel="shortcut icon" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/css/homepage.css" />
     </head>
     <body>
-        <h2 id="logo"></h2>
+        <header>
+            <h2 id="logo"></h2>
+        </header>
+
+        <main>
+            <p>
+                The <strong>RAP stack</strong> is an architectural pattern that utilizes <strong>PHP</strong> &amp; <strong>Apache</strong> as a thin-client user-interface over more sophisticated back-end <strong>REST APIs</strong>.
+                An alternative to LAMP, this approach greatly reduces the amount of code in a PHP application, while empowering Web Designers & Software Engineers to focus on their respective strengths.
+            </p>
+
+            <p>
+                <table class="diagram">
+                    <tr>
+                        <td class="diagram-label">
+                            Presentation Layer
+                        </td>
+                        <td class="diagram-content">
+                            <p><strong>PHP THIN-CLIENT</strong></p>
+                            <ul>
+                                <li>Interacts with REST API for all input/output</li>
+                                <li>Contains no business logic or direct database connectivity</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="diagram-label">
+                            Application Layer / Business Logic
+                        </td>
+                        <td class="diagram-content">
+                            <p><strong>REST API</strong></p>
+
+                            <ul>
+                                <li>Contains all business logic</li>
+                                <li>Responsible for database connectivity</li>
+                            </ul>
+    
+                            Can be built using the tools of your team's preference:
+                            <ul>
+                                <li>C# & WebApi</li>
+                                <li>Python & Flask</li>
+                                <li>Java & Spring</li>
+                                <li>etc</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="diagram-label">
+                            Database Layer
+                        </td>
+                        <td class="diagram-content">
+                            <p><strong>PERSISTENT STORAGE</strong></p>
+
+                            <p>
+                                PHP presentation-layer has no knowledge of the underlying database(s) since all communication goes through the REST APIs.
+                            </p>
+
+                            Can be built using the tools of your team's preference:
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>MariaDB / MySQL</li>
+                                <li>Mongo</li>
+                                <li>Cassandra</li>
+                                <li>etc</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </p>
+        </main>
+
+        <div class="clearfix"></div>
+
     </body>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130031233-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130031233-1');
+    </script>
 </html>
 
 <!--
