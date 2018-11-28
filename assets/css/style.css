@@ -1,0 +1,14 @@
+body {
+    background-image:url('/assets/images/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#logo {
+    background-image:url('/assets/images/logo.png');
+    width: 356px;
+    height: 226px;
+    margin: 300px auto 0;
+}
