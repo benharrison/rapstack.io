@@ -8,6 +8,15 @@ body {
     color: #444;
 }
 
+a, a:visited {
+    color: #ff002f;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     margin-top: 1em;

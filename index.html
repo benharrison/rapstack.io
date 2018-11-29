@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>RAP: REST APIs / Apache / PHP</title>
+        <title>RAP: REST APIs &amp; PHP</title>
         <link href="/assets/images/favicon.png" rel="shortcut icon" />
 
         <link href="https://fonts.googleapis.com/css?family=Oswald:200|Playfair+Display:900i" rel="stylesheet">
@@ -20,11 +20,42 @@
             <h1>Overview</h1>
 
             <p>
-                The <strong>RAP stack</strong> is an architectural pattern that utilizes <strong>PHP</strong> &amp; <strong>Apache</strong> as a thin-client user-interface over more sophisticated back-end <strong>REST APIs</strong>.
+                The <strong>RAP stack</strong> is an architectural pattern that utilizes <strong>REST APIs</strong> for sophisticated back-end functionality, making their functionality easy to use through a thin-client <strong>PHP</strong> interface.
                 An alternative to LAMP, this approach greatly reduces the amount of code in a PHP application, while empowering Web Designers & Software Engineers to focus on their respective strengths.
             </p>
 
+            <h1>OK great, but PHP? Seriously?</h1>
 
+            <p>
+                If you're a Developer I can sense your judgment already. But if you're willing to give me a short moment of your time I'll explain, and I think I might just be able to win you over.
+            </p>
+
+            <p>
+                <a href="https://medium.com/@raydollete/php-gets-a-bad-rap-3ab6fce06c4a">PHP's bad reputation is largely unfair</a>,
+                because it has been the language of choice for lots of poorly written projects.
+                In many of those cases, the creators were to blame more than the tool.
+                PHP, just like nearly every other technology, has a purpose and serves a specific niche as the right tool for the job.
+            </p>
+
+            <p>
+                The RAP stack is largely a counter-response to the ever-changing web development landscape.
+                New tools and frameworks are constantly being released, with each making lofty claims that they'll help teams build software better, faster, and more reliably than before.
+                While occassionally this might be true, often it isn't. In the worst case scenarios new technologies can even be counterproductive;
+                    regressing productivity and adding unnecessary restrictions.
+            </p>
+            <p>
+                This stack provides fundamentally skilled developers a flexible pattern to build quality products on proven technologies.
+            </p>
+
+            <div class="quote">
+                    <q>Over the years, my routine might have changed some but my philosophy never did.
+                        If something has worked for other greats before, and if something is working for you, why change it up and embrace some new fad?
+                        Stick with what works, even if it's unpopular.</q>
+                    <p>
+                        - Kobe Bryant, <em>The Mamba Mentality: How I Play</em>
+                    </p>
+                </div>
+    
             <h1>3-Tier Approach</h1>
 
             <p>
@@ -38,6 +69,7 @@
                             <ul>
                                 <li>Interacts with REST API for all input/output</li>
                                 <li>Contains no business logic or direct database connectivity</li>
+                                <li>Built by Designers, Usability Experts, &amp; Front-end Developers who have a mastery in hand-crafting quality, maintainable, HTML/CSS</li>
                             </ul>
                         </td>
                     </tr>
@@ -51,8 +83,10 @@
                             <ul>
                                 <li>Contains all business logic</li>
                                 <li>Responsible for database connectivity</li>
+                                <li>Testable and verifiable with or without the need of a UI</li>
+                                <li>Built by Engineers with a mastery of Software Development principles</li>
                             </ul>
-    
+
                             Can be built using the tools of your team's preference:
                             <ul>
                                 <li>C# & WebApi</li>
@@ -86,16 +120,15 @@
                 </table>
             </p>
 
-            <h1>OK great, but PHP?</h1>
+            <h1>Philosophies, Principles, &amp; Motivations</h1>
 
-            <div class="quote">
-                <q>Over the years, my routine might have changed some but my philosophy never did.
-                    If something has worked for other greats before, and if something is working for you, why change it up and embrace some new fad?
-                    Stick with what works, even if it's unpopular.</q>
-                <p>
-                    - Kobe Bryant, <i>The Mamba Mentality: How I Play</i>
-                </p>
-            </div>
+            <ul>
+                <li>The user-interface is not <em>the application</em>, but rather a small module within a larger system.</li>
+                <li>The user-interface should be more of a Web Design Project rather than a Software Engineering Project.</li>
+                <li>Newer isn't always better. Just because the eleventy-billionth Javascript framework that was just released claims to help you build apps faster, easier, and more reliably doesn't necessarily mean it will work as well as it sounds.</li>
+                <li>Artists who learn to code are always better designers than Programmers who learn to design.</li>
+            </ul>
+
         </main>
 
         <div class="clearfix"></div>
@@ -115,11 +148,11 @@
 
 <!--
 Not exactly a new technology stack. More of an ideology that combines various proven technologies.
-Your UI is not your application
-Newer isn't always better
+    Your UI is not your application
+    Newer isn't always better
 Less is more
 Clean separation between REST API Software Engineers & Web Designers
-UI is a thin-client piece of a much larger system
+    UI is a thin-client piece of a much larger system
 A system can have many UIs: official UI, admin panel, software support tools, development test harness, heads up display, mobile interface, postman collection
 PHP still has a purpose
 Not arrogant enough to say that we're the fastest/best/easiest. Lots of good frameworks exist, and want to co-exist. More a proponent of proven tools and techniques over.
