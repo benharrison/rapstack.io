@@ -8,6 +8,12 @@ body {
     color: #444;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1em;
+    color: #ff002f;
+}
+
 strong {
     color: #111;
 }

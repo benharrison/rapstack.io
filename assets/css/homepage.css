@@ -14,3 +14,16 @@ main {
     padding: 40px;
 }
 
+.quote {
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.quote q {
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+}
+
+.quote p {
+    text-align: right;
+}
