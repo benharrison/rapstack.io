@@ -30,10 +30,21 @@ strong {
 #logo {
     background-image:url('/assets/images/logo.png');
     width: 356px;
-    height: 226px;
+    height: 175px;
     margin: 0 auto;
 }
 
+#logo-subtitle {
+    color: #777;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+#logo-subtitle em {
+    color: #e7e7e7;
+    font-style: normal;
+}
 
 table.diagram {
     width: 100%;
