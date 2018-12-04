@@ -3,6 +3,9 @@ red - ff002f
 orange - fbaf5d
 */
 
+/* Base HTML elements
+-------------------------------------------------------------------------------------*/
+
 body {
     background-color: #e7e7e7;
     color: #444;
@@ -27,6 +30,49 @@ strong {
     color: #111;
 }
 
+/* CSS classes
+-------------------------------------------------------------------------------------*/
+
+.quote {
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.quote q {
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+}
+
+.quote p {
+    text-align: right;
+}
+
+
+/* Header
+-------------------------------------------------------------------------------------*/
+
+header {
+    padding: 100px 0;
+
+    background-image:url('/assets/images/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header #overview {
+    max-width: 1000px;
+    margin: 40px auto 0;
+    padding: 40px;
+    background-color: rgba(0,0,0,0.5);
+    color: #bbb;
+}
+
+header #overview strong {
+    color: #fff;
+}
+
 #logo {
     background-image:url('/assets/images/logo.png');
     width: 356px;
@@ -35,16 +81,28 @@ strong {
 }
 
 #logo-subtitle {
-    color: #777;
+    color: #e7e7e7;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     margin: 20px 0 0;
 }
 
 #logo-subtitle em {
-    color: #e7e7e7;
     font-style: normal;
 }
+
+/* Content
+-------------------------------------------------------------------------------------*/
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+/* Diagram Table
+-------------------------------------------------------------------------------------*/
 
 table.diagram {
     width: 100%;
