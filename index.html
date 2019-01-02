@@ -23,41 +23,6 @@
 
         <main>
 
-            <h1>OK great, but PHP? Seriously?</h1>
-
-            <p>
-                If you're a Developer I can sense your judgment already. But if you're willing to give me a short moment of your time I'll explain, and I think I might just be able to win you over.
-            </p>
-
-            <p>
-                <a href="https://medium.com/@raydollete/php-gets-a-bad-rap-3ab6fce06c4a">PHP's bad reputation is largely unfair</a>,
-                because it has been the language of choice for lots of poorly written projects.
-                In many of those cases, the creators were to blame more than the tool.
-                PHP, just like nearly every other technology, has a purpose and serves a specific niche as the right tool for the job.
-            </p>
-
-            <p>
-                The RAP stack is largely a counter-response to the ever-changing web development landscape.
-                New tools and frameworks are constantly being released, with each making lofty claims that they'll help teams build software better, faster, and more reliably than before.
-                While occassionally this is true, often it isn't. In the worst case scenarios new technologies can become counterproductive nightmares;
-                    decreasing team velocity, adding unnecessary restrictions, binding a project to vendor-lockin, 
-                    creating dependencies that are difficult to upgrade, 
-                    or simply requiring a paradigm-shift in thinking to accomplish the same thing.
-            </p>
-
-            <p>
-                This stack provides fundamentally skilled developers a flexible pattern to build quality products on proven technologies.
-            </p>
-
-            <div class="quote">
-                    <q>Over the years, my routine might have changed some but my philosophy never did.
-                        If something has worked for other greats before, and if something is working for you, why change it up and embrace some new fad?
-                        Stick with what works, even if it's unpopular.</q>
-                    <p>
-                        - Kobe Bryant, <em>The Mamba Mentality: How I Play</em>
-                    </p>
-                </div>
-    
             <h1>3-Tier Approach</h1>
 
             <p>
@@ -71,7 +36,10 @@
                             <ul>
                                 <li>Interacts with REST API for all input/output</li>
                                 <li>Contains no business logic or direct database connectivity</li>
-                                <li>Built by Designers, Usability Experts, &amp; Front-end Developers who have a mastery in hand-crafting quality, maintainable, HTML/CSS</li>
+                                <li>Hides back-end APIs & handles light security</li>
+                                <li>Built by Designers, Usability Experts, &amp; Front-end Developers 
+                                    who have a mastery in hand-crafting quality, maintainable, HTML/CSS</li>
+                                <li>Can be used in conjunction with any 3rd Javascript libraries</li>
                             </ul>
                         </td>
                     </tr>
@@ -135,12 +103,64 @@
                 <li>The end product is infinitely more important than the tools used to build it.</li>
             </ul>
 
+            <h1>Bottom-up Technical Design / Top-down UI Design</h1>
+
+            <p>
+                Since the user-interface is <em>not</em> the application, this pattern actually starts at the opposite end of the stack.
+            </p>
+
+            <p>
+                Back-end API development can be built, tested, demonstrated, and proven to scale to internal engineering teams with or without the need of a user-interface.
+            </p>
+
             <h1>Problems This Pattern Attempts to Avoid</h1>
 
             <ul>
                 <li>Open-source vendor lock-in</li>
                 <li>Deceptively easy one-line terminal commands that start a project quickly, but add bloat, unwanted dependencies and restrictions</li>
             </ul>
+
+            <h1>OK great, but PHP? Seriously?</h1>
+
+            <p>
+                Yes.
+            </p>
+
+            <div class="quote">
+                <q>Over the years, my routine might have changed some but my philosophy never did.
+                    If something has worked for other greats before, and if something is working for you, why change it up and embrace some new fad?
+                    Stick with what works, even if it's unpopular.</q>
+                <p>
+                    - Kobe Bryant, <em>The Mamba Mentality: How I Play</em>
+                </p>
+            </div>
+
+            <p>
+                Much of PHP's reputation is 
+                <a href="https://medium.com/@raydollete/php-gets-a-bad-rap-3ab6fce06c4a">actually unfair</a>,
+                because it has been the language of choice for lots of poorly written projects.
+                In many of those cases, the creators were to blame more than the tool.
+                PHP, just like nearly every other technology, has a purpose and serves a specific niche as the right tool for the job.
+            </p>
+
+            <p>
+                Using this pattern PHP is a minimal tip of the iceberg proxy to the underlying functionality.
+            </p>
+
+            <p>
+                The RAP stack is largely a counter-response to the ever-changing web development landscape.
+                New tools and frameworks are constantly being released, with each making lofty claims that they'll help teams build software better, faster, and more reliably than before.
+                While occassionally true, often the claims are too good to be true.
+
+                In the worst case scenarios new technologies can become counterproductive nightmares;
+                    decreasing team velocity, adding unnecessary restrictions, binding projects to vendor-lockin, 
+                    creating dependencies that are difficult to upgrade, 
+                    or simply requiring a paradigm-shift in thinking to accomplish the same thing.
+            </p>
+
+            <p>
+                This stack provides fundamentally skilled developers a flexible pattern to build quality products on proven technologies.
+            </p>
 
         </main>
 
